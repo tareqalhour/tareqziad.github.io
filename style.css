@@ -1,0 +1,281 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  overflow-x: hidden;
+  font-family: "Merriweather",serif;
+  color: #505962;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+  font-size: 1.8rem;
+  line-height: 1.42em;
+}
+
+/*--Navigation--*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3rem;
+  letter-spacing: .1rem;
+  background: rgba (0,0,0,0.6)!important;
+}
+
+.navbar-brand h1 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 2.9rem;
+  color: rgb(211, 9, 9);
+
+}
+
+.navbar-brand h3 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: .80rem;
+  margin-left: 12.5%;
+  color: #000
+}
+
+.container {
+  margin-top: 30px;
+  width: 150 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-nav li {
+  margin-bottom: 20px;
+  position: relative;
+  display: block;
+  padding: 10px 15px;}
+ 
+.navbar-nav li a:hover {
+  text-decoration: none;
+  border-radius: 4px;
+  background-color:#eee;
+}
+
+.col-md-3 {
+  width: 25%;
+}
+/*----home-----*/
+
+.about {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin:auto;
+  font-size: 1.5rem;
+
+}
+.about p {
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.about h1 {
+  font-size: 2.7rem;
+  color: #000;
+}
+
+.about h3 {
+  font-size: 2.1rem;
+}
+
+.profile-img {
+  margin-top: 10%;
+  border-radius: 50%;
+  width: 250px;
+  margin-left: 110px;
+}
+
+.nav-bar .fa-bars {
+  font-size: 35px;
+  color: #000;
+}
+
+.navbar-toggler {
+
+  outline: none !important;
+}
+
+.navbar-nav {
+
+  float: right;
+  text-align: right;
+}
+
+.nav-link {
+  
+  color: #505962 !important;
+}
+
+.navbar-brand{
+
+  color: #505962 !important;
+}
+
+/*-----Resume-----*/
+
+.resume {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+.resume img {
+ margin-left: auto;
+ border-radius: 10%; 
+}
+
+.resume h1 {
+  margin-left: 21%;
+  padding-bottom: 10px;
+}
+
+.resume h2 {
+  font-size: 2.2rem;
+  color:rgb(3, 109, 34);
+  margin-bottom: 20px;
+}
+.resume li {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.resume li h4 {
+  font-size: 1.9rem;
+  margin-bottom: 20px;
+}
+
+
+
+.timeline {
+
+  list-style-type: none;
+  position: relative;
+}
+
+.timeline:before {
+  content: '';
+  background: rgb(3, 109, 34);
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 4px;
+  height: 100%;
+  z-index: 1;
+}
+
+.timeline li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  background: #fff;
+}
+/*-----projects-------*/
+
+.projects {
+  margin-top: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projects div {
+  display: block;
+}
+
+
+/*--------Contact--------*/
+.contact
+{
+  padding-top: 50px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  
+}
+
+.contact h1 {
+  font-size: 2.8rem;
+  color: #000;
+}
+
+.contact i {
+  font-size: 1.5rem;
+}
+
+/*---------social-icons-----------*/
+
+.social
+{
+  top:30%;
+  position: fixed; 
+}
+
+.social ul 
+{
+  list-style-type: none;
+  padding: 0;
+  transform: translateX(-270px);
+}
+
+.social ul li 
+{
+ display: block;
+ margin: 5px;
+ background-color: rgba(0, 0, 0, 0.5);
+ width:300px;
+ text-align: right;
+ padding: 10px;
+ border-radius: 0 30px 30px 0;
+ transition: all 1s;
+}
+
+.social ul li:hover
+{
+  transform: translateX(30px);
+}
+
+.social ul li.instagram:hover
+{
+  background-color: #3f729b;
+}
+
+.social ul li.facebook:hover
+{
+  background-color: #3d5999;
+}
+
+.social ul li.linkedin:hover
+{
+  background-color: #4875B4;
+}
+
+.social ul li.github:hover
+{
+  background-color: #333;
+}
+
+.social ul li a 
+{
+  color : white;
+  text-decoration: none;
+}
+
+.social ul li i
+{
+  text-align: center;
+  margin-left: 14px;
+  color: black;
+  background-color: white;
+  padding: 5px;
+  border-radius: 50%;
+  width: 25px;
+  font-size: 15px;
+  transform: rotate(0deg);
+}
+
+.social ul li:hover i 
+{
+  transform: rotate(360deg);
+  transition: all 1s;
+   
+}
