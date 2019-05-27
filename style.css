@@ -7,7 +7,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02rem;
   font-size: 1.8rem;
-  line-height: 1.42em;
+}
+.container {
+  margin-top: 30px;
+  width: 150 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.col-md-3 {
+  width: 25%;
 }
 
 /*--Navigation--*/
@@ -17,46 +27,81 @@ body {
   font-size: 1.3rem;
   letter-spacing: .1rem;
   background: rgba (0,0,0,0.6)!important;
+  padding-bottom: 0px;
+  margin-right: 0px;
+}
+
+.nav-bar .fa-bars {
+  font-size: 35px;
+  color: #000;
+}
+
+.navbar-toggler {
+
+  outline: none !important;
+}
+
+.navbar-nav {
+
+  float: right;
+  text-align: right;
+}
+
+.navbar-brand{
+
+  color: #505962 !important;
 }
 
 .navbar-brand h1 {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 2.9rem;
   color: rgb(211, 9, 9);
+  margin-right: 20px;
+
+}
+.navbar-brand h2 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2.9rem;
+  color: rgb(14, 1, 49);
+  margin-left: 25%;
 
 }
 
 .navbar-brand h3 {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: .80rem;
-  margin-left: 12.5%;
-  color: #000
+  margin-left: 11%;
+  color: #000;
+  padding-top: 2.5%;
 }
 
-.container {
-  margin-top: 30px;
-  width: 150 0px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-.navbar-nav li {
-  margin-bottom: 20px;
+.nav li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: relative;
   display: block;
-  padding: 10px 15px;}
- 
-.navbar-nav li a:hover {
-  text-decoration: none;
-  border-radius: 4px;
-  background-color:#eee;
+  padding: 10px 15px;
 }
 
-.col-md-3 {
-  width: 25%;
+  .nav li a:hover {
+    text-decoration: none;
+    border-radius: 4px;
+    background-color:#eee;
 }
+
+.nav-pills li a {
+  border-radius: 5px;
+}
+.nav li.active a:focus {
+ color: #fff;
+ background-color: #444444;
+}
+.nav-pills li.active a :hover  {
+  color: #fff;
+  background-color: #337ab7;
+ }
+
+
 /*----home-----*/
 
 .about {
@@ -79,43 +124,18 @@ body {
   font-size: 2.1rem;
 }
 
-.profile-img {
-  margin-top: 10%;
+.about img {
+  margin-top: auto;
   border-radius: 50%;
   width: 250px;
   margin-left: 110px;
 }
 
-.nav-bar .fa-bars {
-  font-size: 35px;
-  color: #000;
-}
-
-.navbar-toggler {
-
-  outline: none !important;
-}
-
-.navbar-nav {
-
-  float: right;
-  text-align: right;
-}
-
-.nav-link {
-  
-  color: #505962 !important;
-}
-
-.navbar-brand{
-
-  color: #505962 !important;
-}
 
 /*-----Resume-----*/
 
 .resume {
-  padding-top: 10px;
+  padding-bottom: 10%;
   padding-bottom: 10px;
 }
 
@@ -125,12 +145,12 @@ body {
  border-radius: 10%; 
 }
 
-.resume h1 {
+.row h1 {
   margin-left: 21%;
   padding-bottom: 10px;
 }
 
-.resume h2 {
+.row h2 {
   font-size: 2.2rem;
   color:rgb(3, 109, 34);
   margin-bottom: 20px;
@@ -173,46 +193,66 @@ body {
 /*-----projects-------*/
 
 .projects {
-  margin-top: 80px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
+  padding-top: 90px;
+  padding-bottom: 50px;
+  margin:auto;
+  font-size: 1.5rem;
 
+}
+.projects p {
+  margin-bottom: 20px;
+  line-height: 25px;
+}
 .projects h1 {
-  font-size: 2.2rem;
-}
-
-.projects h3 {
-  font-size: 1.7rem;
-}
-
-
-.projects span {
-  font-size: 1.4rem;
-}
-.projects div {
-  display: block;
-}
-
-
-/*--------Contact--------*/
-.contact
-{
-  padding-top: 50px;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  
-}
-
-.contact h1 {
-  font-size: 2.8rem;
+  font-size: 2.7rem;
   color: #000;
 }
 
-.contact i {
-  font-size: 1.5rem;
+.projects h3 {
+  font-size: 2.1rem;
 }
+
+.projects img {
+  margin-top: 70px;
+  border-radius: 50%;
+  width: 450px;
+  margin-left: 110px;
+}
+
+
+/*--------Footer--------*/
+
+.footer-main-div {
+  width: 100px;
+  height: auto;
+  margin:auto;
+  background: #272727;
+  padding: 20px 0px;
+}
+
+footer-social-icons {
+  width :100px;
+  height: auto;
+  margin: auto;
+}
+
+footer-social-icons ul {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer-social-icons ul li {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0px
+}
+
+
+
+
 
 /*---------social-icons-----------*/
 
